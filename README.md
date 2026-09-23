@@ -14,4 +14,4 @@ A responsive Facebook UI clone built with pure HTML5, CSS3 (Flexbox), and FontAw
 - FontAwesome Icons
 
 ## Live Demo
-[View Live Demo]([https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/](https://ali-tobar.github.io/Facebook-Clone/))
+[View Live Demo](https://ali-tobar.github.io/Facebook-Clone/)
