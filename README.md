@@ -1,4 +1,6 @@
-# Facebook Clone — Interactive & Responsive UI
+# Facebook Clone — Interactive UI Clone
+
+A static **Interactive UI Clone** demonstrating a social-feed layout and client-side form interactions. It does not provide real authentication, a backend, persistent accounts, or messaging services. — Interactive & Responsive UI
 
 A fully responsive Facebook interface clone featuring dynamic client-side interactions, multi-page layout (Feed, Login, and Account Creation), built using semantic HTML5, modern CSS3, and Vanilla JavaScript.
 
