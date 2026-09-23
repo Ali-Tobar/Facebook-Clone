@@ -56,3 +56,4 @@ Facebook-Clone/
 ├── CreateAccount.css    # Registration styles
 ├── CreateAccount.js     # Registration validation & interactions
 └── README.md            # Project documentation
+
