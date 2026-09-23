@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="CreateAccount.css">
+
+   <title>Create Account</title>
+</head>
+
+<body>
+   <form id="signupForm" action="">
+
+      <div class="form-header">
+         <h2>Create a new account</h2>
+         <p>It's quick and easy.</p>
+      </div>
+      <hr>
+
+      <div class="input-group-row">
+         <div class="input-wrapper">
+            <input type="text" id="firstName" placeholder="First name">
+            <span class="error-msg" id="firstNameError"></span>
+         </div>
+         <div class="input-wrapper">
+            <input type="text" id="lastName" placeholder="Last name">
+            <span class="error-msg" id="lastNameError"></span>
+         </div>
+      </div>
+
+
+      <div class="input-wrapper">
+         <input type="text" id="emailOrMobile" placeholder="Mobile number or email">
+         <span class="error-msg" id="emailError"></span>
+      </div>
+
+      <div class="input-wrapper">
+         <input type="password" id="newPassword" placeholder="New password">
+         <span class="error-msg" id="passwordError"></span>
+      </div>
+
+
+      <fieldset class="input-wrapper">
+         <legend>Birthday <span class="help-icon">?</span></legend>
+         <div class="select-group">
+            <select id="birthMonth">
+               <option value="Apr">Apr</option>
+
+            </select>
+            <select id="birthDay">
+               <option value="23">23</option>
+
+            </select>
+            <select id="birthYear">
+               <option value="2024">2024</option>
+
+            </select>
+         </div>
+         <span class="error-msg" id="birthdayError"></span>
+      </fieldset>
+      <fieldset class="input-wrapper">
+         <legend>Gender <span class="help-icon">?</span></legend>
+         <div class="radio-group">
+            <label class="radio-box">
+               Female <input type="radio" name="gender" value="female" id="genderFemale">
+            </label>
+            <label class="radio-box">
+               Male <input type="radio" name="gender" value="male" id="genderMale">
+            </label>
+            <label class="radio-box">
+               Custom <input type="radio" name="gender" value="custom" id="genderCustom">
+            </label>
+         </div>
+         <span class="error-msg" id="genderError"></span>
+      </fieldset>
+
+      <div class="form-footer">
+         <p class="disclaimer">People who use our service may have uploaded your contact information to Facebook. <a
+               href="#">Learn more</a>.</p>
+         <p class="disclaimer">By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy
+               Policy</a> and <a href="#">Cookies Policy</a>.</p>
+
+         <button type="submit" id="submitBtn" class="btn-signup">Sign Up</button>
+
+         <div class="login-link">
+            <a href="login.html">Already have an account?</a>
+         </div>
+      </div>
+
+   </form>
+   <script src="CreateAccount.js"></script>
+</body>
+
+</html>

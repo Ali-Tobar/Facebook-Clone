@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+   <meta charset="UTF-8">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="login.css">
+
+   <title>login</title>
+
+</head>
+
+<body>
+
+   <!-- Main Container -->
+   <main class="login-page">
+
+      <!-- Logo -->
+      <div class="logo">
+         <img src="images/facebook_logo.png" alt="Facebook Logo">
+      </div>
+
+      <!-- Login Form -->
+      <form id="loginForm">
+
+         <!-- Email / Mobile -->
+         <div class="input-group">
+            <input type="email" id="emailOrMobile" placeholder="Mobile number or email address">
+            <span class="input-error" id="emailOrMobile-error">
+            </span>
+         </div>
+
+         <!-- Password -->
+         <div class="input-group">
+            <input type="password" id="password" placeholder="Password">
+            <span class="input-error" id="password-error">
+            </span>
+         </div>
+
+         <!-- Login Button -->
+         <button type="submit" id="login-btn" class="login-btn">
+            Log In
+         </button>
+
+         <!-- Forgotten Password -->
+         <a href="#" class="forgotten-password">
+            Forgotten password?
+         </a>
+
+         <!-- Divider -->
+         <div class="divider">
+            <span>or</span>
+         </div>
+
+         <!-- Create Account -->
+         <a href="createAccount.html" class="create-account-btn">
+            Create New Account
+         </a>
+
+      </form>
+
+      <!-- Footer -->
+      <footer class="footer">
+
+         <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Help</a>
+            <a href="#">More</a>
+         </div>
+
+         <div class="copyright">
+            Meta © 2026
+         </div>
+
+      </footer>
+
+   </main>
+   <script src="login.js"></script>
+</body>
